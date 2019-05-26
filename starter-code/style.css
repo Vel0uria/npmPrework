@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+nav {
+  font-family: 'Source Sans Pro', sans-serif;
+
+  padding: 10px 20px;
+
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgb(193, 33, 39);
+}
+
+nav a {
+  text-decoration: none;
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.top-left {
+  display: inline-block;
+}
+
+.top-left .acronym {
+  margin-left: 20px;
+}
+
+.top-links {
+  float: right;
+
+  margin: 0 20px 0 0;
+  padding: 0;
+}
+
+.top-links li {
+  display: inline-block;
+
+  margin: 0 10px;
+}
+
+header {
+  padding: 10px;
+
+  color: rgb(255, 255, 255);
+  background: rgb(32, 101, 136);
+  background: url('images/city-scape.svg');
+  background-size: cover;
+}
+
+.header-search .npm-logo {
+  height: 45px;
+  margin: 0 10px;
+
+  vertical-align: middle;
+}
+
+.header-search .form {
+  text-align: center;
+}
+
+.header-search .form input {
+  width: 70%;
+  height: 45px;
+  padding-right: 10px;
+  padding-left: 10px;
+
+  color: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: 0;
+  background: rgb(31, 82, 111);
+}
+
+.header-search .form button {
+  font-weight: 800;
+
+  height: 45px;
+  padding: 5px 10px;
+
+  color: rgb(240, 146, 51);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgb(31, 82, 111);
+}
+
+.header-search span {
+  margin: 0 10px;
+}
+
+.header-search span {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.header-search span a {
+  text-decoration: none;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.header-search span a:hover {
+  text-decoration: none;
+
+  color: rgba(255, 255, 255, 1);
+}
+
+.header-search .bear-logo {
+  height: 45px;
+  margin: 0 10px;
+
+  vertical-align: middle;
+}
+
+.header-content {
+  height: 350px;
+  padding-top: 70px;
+}
+
+.header-content h1 {
+  margin-bottom: 30px;
+}
+
+.header-content p {
+  max-width: 50%;
+  margin-bottom: 25px;
+}
+
+.collaborate {
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgb(39, 53, 71);
+}
+
+.collaborate-content {
+  padding: 80px 0;
+}
+
+.collaborate-image {
+  display: inline-block;
+
+  width: 50%;
+}
+
+.collaborate-info {
+  display: inline-block;
+
+  max-width: 49%;
+  padding-left: 60px;
+}
+
+.collaborate-info h1 {
+  margin-bottom: 30px;
+}
+
+.collaborate-info ul {
+  margin-bottom: 25px;
+}
+
+.collaborate-info li {
+  margin-bottom: 15px;
+
+  list-style-position: inside;
+}
+
+.collaborate-info p {
+  margin-top: 20px;
+}
+
+.collaborate-info a {
+  text-decoration: none;
+
+  color: rgba(255, 255, 255, 1);
+}
+
+.what-is {
+  position: relative;
+
+  height: 450px;
+  padding: 10px;
+
+  color: rgb(255, 255, 255);
+  background: rgb(32, 101, 136);
+  background: url('images/forklift.svg');
+  background-size: cover;
+}
+
+.what-is-info {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+
+  width: 25%;
+}
+
+.what-is-info h1 {
+  margin-bottom: 30px;
+}
+
+.what-is-info p {
+  margin-bottom: 20px;
+}
